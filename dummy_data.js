@@ -408,7 +408,7 @@ export const jobs = {
       employer_website: "http://www.schwab.com",
       employer_company_type: "Finance",
       job_publisher: "Schwab Jobs",
-      job_employment_type: "FULLTIME",
+      job_employment_type: "PARTTIME",
       job_title: "Software Web Developer",
       job_apply_link:
         "https://www.schwabjobs.com/job/austin/software-web-developer/33727/48110146896",
@@ -618,7 +618,7 @@ export const jobs = {
       employer_company_type: null,
       job_publisher: "Talent.com",
       job_id: "JviQ_0mnlXoAAAAAAAAAAA==1",
-      job_employment_type: "FULLTIME",
+      job_employment_type: "PARTTIME",
       job_title: "Web developer",
       job_apply_link: "https://www.talent.com/view?id=d9389c3c7cd3",
       job_apply_is_direct: false,

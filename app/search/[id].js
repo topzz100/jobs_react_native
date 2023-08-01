@@ -36,7 +36,14 @@ const JobSearch = () => {
   const handleSearch = async () => {
     setSearchLoader(true);
     setSearchResult([]);
-    const result = jobs.data.filter((j) => j.job_title.includes(params.id));
+    const result = [
+      ...jobs.data.filter((j) => j.job_title.includes(params.id)),
+      ...jobs.data.filter((j) =>
+        j.job_employment_type.includes(
+          params?.id?.toUpperCase().substring(0, 4)
+        )
+      ),
+    ];
     setSearchResult(result);
     setSearchLoader(false);
 
